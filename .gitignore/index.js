@@ -20,3 +20,10 @@ bot.on('ready', function() {
     console.log('Le Bot est désormais connecté');
 });
 
+bot.on ('message', function(message) {
+    if (message.content === 'help') {
+        message.channel.send('Les commandes seront bientot disponibles ;)')
+    }
+})
+
+
