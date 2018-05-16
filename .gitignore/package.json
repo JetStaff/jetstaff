@@ -1,0 +1,14 @@
+{
+  "name": "jetstaff",
+  "version": "1.0.0",
+  "description": "un bot qui aide le staff de jetcube ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LolkillV2",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
